@@ -813,18 +813,19 @@ body * {
 }
 
 .area:nth-child(3) {
-	left: 0px;
-	height: 80px;
+	left: 50px;
+	height: 175px;
 	padding-right: 50px;
 }
 
 .area:nth-child(3)>.text {
+	padding-top : 30px;
 	padding-right: 50px;
 	width: 30%;
 }
 
 .area:nth-child(3)>.img {
-	width: 70%;
+	width: 40%;
 	height: 100%;
 	background-image: url(images/teacher/teacher1.png);
 	background-size: cover;
@@ -842,11 +843,3 @@ body * {
 	width: 30%;
 }
 
-.area:nth-child(4)>.img {
-	width: 70%;
-	height: 100%;
-	background-image: url(images/teacher/teachers.png);
-	background-size: cover;
-	background-position: top;
-	margin-left: 5px;
-}
